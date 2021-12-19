@@ -21,6 +21,8 @@ export default class App extends Component {
         <Field mined />
         <Field mined opened />
         <Field mined opened exploded />
+        <Field flagged />
+        <Field flagged opened/>       
       </View>
     )
   }
@@ -29,7 +31,7 @@ export default class App extends Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
+    justifyContent: 'center',    
     alignItems: 'center',
     backgroundColor: '#F5FCFF'
   },
